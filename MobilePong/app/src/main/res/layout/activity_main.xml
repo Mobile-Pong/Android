@@ -9,13 +9,6 @@
     android:paddingTop="20dp" >
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:text="Current Acceleration: X Axis"
-        android:textSize="15dp" />
 
     <TextView
         android:id="@+id/currentX"
@@ -44,37 +37,6 @@
         android:text="0.0"
         android:textSize="20dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Current Acceleration: Z Axis"
-        android:textSize="15dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="227dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginBottom="102dp"
-        android:text="Current Acceleration: y Axis"
-        android:textSize="15dp"
-        android:layout_alignBottom="@+id/textView2"
-        android:layout_alignRight="@+id/textView"
-        android:layout_alignEnd="@+id/textView" />
-
-    <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:layout_marginBottom="121dp"
-    android:text="Current Acceleration:"
-    android:textSize="20dp"
-        android:layout_alignBottom="@+id/textView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
 </LinearLayout>
