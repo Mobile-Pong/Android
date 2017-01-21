@@ -148,14 +148,15 @@
                 roll = event.values[2];
                 pitch = event.values[1];
                 yaw = event.values[0];
+                if (Math.abs(roll) < 0.1)
+                    roll = 0;
+                if (Math.abs(pitch) < 0.1)
+                    pitch = 0;
+                if (Math.abs(yaw) < 0.1)
+                    yaw = 0;
                 displayCleanValuesGyr();
                 displayCurrentValues();
-                if (roll < 0.1)
-                    deltaX = 0;
-                if (deltaY < 0.1)
-                    deltaY = 0;
-                if (deltaZ < 0.1)
-                    deltaZ = 0;
+
             }
         }
         public void displayCleanValuesAcc() {
